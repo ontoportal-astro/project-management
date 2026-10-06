@@ -2,7 +2,7 @@
 name: Semantic Artefact Request
 about: Suggest an semantic artefact for OntoPortal-Astro
 title: "[New SA]"
-labels: ''
+labels: 'new-sa'
 assignees: ''
 
 ---
