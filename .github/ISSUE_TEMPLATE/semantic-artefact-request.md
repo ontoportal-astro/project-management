@@ -1,19 +1,19 @@
 ---
 name: Semantic Artefact Request
 about: Suggest an semantic artefact for OntoPortal-Astro
-title: "[New SA]"
+title: "[Request SA]"
 labels: 'new-sa'
 assignees: ''
 
 ---
 
-**Name of the Semantic Artefact**
+**Name of the Requested Semantic Artefact**
 The well-know name of the Semantic Artefact
 
-**URL of the Semantic Artefact**
+**URL of the Requested Semantic Artefact**
 The Semantic Artefact URL (html landing page or RDF file)
 
-**Maintainer / Contact for the Semantic Artefact**
+**Maintainer / Contact for the Requested Semantic Artefact**
 Contact point (person ou group) maintaining the Semantic Artefact (with email, if known)
 
 **Additional context**
