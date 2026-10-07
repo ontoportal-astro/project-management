@@ -1,0 +1,64 @@
+name: Semantic Artefact Request
+description: Suggest an semantic artefact for OntoPortal-Astro.
+title: "[SA Request]: "
+labels: ["new-sa"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name of the Requested Semantic Artefact 
+      description: The well-know name of the Semantic Artefact
+      placeholder: ex. Unified Astronomy Thesaurus
+    validations:
+      required: true
+  - type: input
+    id: namespace
+    attributes: 
+      label: Acronym of the Requested Semantic Artefact 
+      description: The commonly used acronym or namespace for this Semantic Artefact (if known)
+      placeholder: ex. UAT
+    validations:
+      required: false
+  - type: input
+    id: url
+    attribute: 
+      label: URL of the Requested Semantic Artefact 
+      description: The Semantic Artefact URL
+      placeholder: ex. https://astrothesaurus.org
+    validation: 
+      required: false
+  - type: checkboxes
+    id: rdf
+    attribute: 
+      label: RDF representation exists?
+      description: if an RDF representation exists, check the box. Give details in the context.
+      options:
+        - label: RDF representation already exists
+          required: true
+  - type: input
+    id: contact
+    attribute:
+      label: Maintainer / Contact for the Requested Semantic Artefact 
+      description: Contact point (person ou group) maintaining the Semantic Artefact (with email, if known)
+      placeholder: ex. https://groups.google.com/g/uat-users
+    validation:
+      required: false
+  - type: textarea
+    id: context
+    attribute: 
+      label: Context
+      description: Add context about the Semantic Artefact request here.
+      placeholder: ex. I need this for... I want to refer to this in... It would be useful for...
+    validation: 
+      required: true
+  - type: dropdown
+    id: groups
+    attributes:
+      label: What OntoPortal-Astro groups are relevant?
+      description: https://ontoportal-astro.eu/groups
+      multiple: true
+      options:
+        - IVOA
+        - IPDA
+        - IHDEA
+        - I don't know
