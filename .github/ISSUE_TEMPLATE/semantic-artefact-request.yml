@@ -34,7 +34,7 @@ body:
       description: if an RDF representation exists, check the box. Give details in the context.
       options:
         - label: RDF representation already exists
-          required: true
+          required: false
   - type: input
     id: contact
     attributes:
