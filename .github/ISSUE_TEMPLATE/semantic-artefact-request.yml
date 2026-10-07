@@ -25,7 +25,7 @@ body:
       label: URL of the Requested Semantic Artefact 
       description: The Semantic Artefact URL
       placeholder: ex. https://astrothesaurus.org
-    validation: 
+    validations: 
       required: false
   - type: checkboxes
     id: rdf
