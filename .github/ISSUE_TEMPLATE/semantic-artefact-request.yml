@@ -21,7 +21,7 @@ body:
       required: false
   - type: input
     id: url
-    attribute: 
+    attributes: 
       label: URL of the Requested Semantic Artefact 
       description: The Semantic Artefact URL
       placeholder: ex. https://astrothesaurus.org
@@ -29,7 +29,7 @@ body:
       required: false
   - type: checkboxes
     id: rdf
-    attribute: 
+    attributes: 
       label: RDF representation exists?
       description: if an RDF representation exists, check the box. Give details in the context.
       options:
@@ -37,19 +37,19 @@ body:
           required: true
   - type: input
     id: contact
-    attribute:
+    attributes:
       label: Maintainer / Contact for the Requested Semantic Artefact 
       description: Contact point (person ou group) maintaining the Semantic Artefact (with email, if known)
       placeholder: ex. https://groups.google.com/g/uat-users
-    validation:
+    validations:
       required: false
   - type: textarea
     id: context
-    attribute: 
+    attributes: 
       label: Context
       description: Add context about the Semantic Artefact request here.
       placeholder: ex. I need this for... I want to refer to this in... It would be useful for...
-    validation: 
+    validations: 
       required: true
   - type: dropdown
     id: groups
