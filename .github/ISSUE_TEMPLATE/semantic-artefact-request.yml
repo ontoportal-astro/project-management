@@ -1,6 +1,6 @@
 name: Semantic Artefact Request
 description: Suggest an semantic artefact for OntoPortal-Astro.
-title: "[SA Request]: "
+title: "[SA Request] "
 labels: ["new-sa"]
 body:
   - type: input
