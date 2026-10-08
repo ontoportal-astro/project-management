@@ -55,10 +55,23 @@ body:
     id: groups
     attributes:
       label: What OntoPortal-Astro groups are relevant?
-      description: More info on groups https://ontoportal-astro.eu/groups
+      description: "More info on groups: https://ontoportal-astro.eu/groups. If other groups are needed, add in comments below."
       multiple: true
       options:
         - IVOA
         - IPDA
         - IHDEA
+        - Astro
+        - Helio
+        - Solar-System
         - I don't know
+    validations:
+      required: true
+  - type: textarea
+    id: comment
+    attributes: 
+      label: Comments
+      description: Any additional information useful for the analysis of this request
+    validations:
+      required: false
+
